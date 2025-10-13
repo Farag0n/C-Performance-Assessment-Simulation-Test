@@ -1,0 +1,45 @@
+@model IEnumerable<SkyTravel.Models.Flight>
+<h1>Lista de vuelos registrados</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Crear vuelo</a>
+    <a asp-controller="Principal" asp-action="Index" class="btn btn-secondary">Volver al menu principal</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr class="table-dark">
+            <th>ID</th>
+            <th>Código único de vuelo</th>
+            <th>Origen</th>
+            <th>Destino</th>
+            <th>Fecha de salida</th>
+            <th>Fecha de llegada</th>
+            <th>Puestos</th>
+            <th>Estado del vuelo</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var flight in Model)
+    {
+        <tr>
+            <td class="table-light">@flight.Id</td>
+            <td>@flight.FlightCode</td>
+            <td>@flight.Origin</td>
+            <td>@flight.Destination</td>
+            <td>@flight.Departure</td>
+            <td>@flight.Arrival</td>
+            <td>@flight.Capacity</td>
+            <td>@flight.State</td>
+            <td>
+                <a asp-controller="Flight" asp-action="Edit" asp-route-id="@flight.Id" class="btn btn-warning btn-sm">Editar</a>
+            </td>
+            <td>
+                <form asp-controller="Flight" asp-action="Delete" asp-route-id="@flight.Id" method="post" onsubmit="return confirm('¿Seguro que deseas eliminar este vuelo?');">
+                    <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

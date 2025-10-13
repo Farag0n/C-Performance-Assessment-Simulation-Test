@@ -1,0 +1,37 @@
+@model SkyTravel.Models.User
+
+<div class="card p-4 shadow-lg" style="max-width: 800px; margin: 2rem auto;">
+    <div class="d-flex flex-wrap align-items-start">
+        <div style="flex: 1;">
+            <h3 class="mb-3">Editar usuario</h3>
+
+            <form asp-action="Edit" asp-controller="" method="post">
+
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label fw-bold">Nombre completo</label>
+                    <input asp-for="Name" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="DocNumber" class="form-label fw-bold">Numero de documento</label>
+                    <input asp-for="DocNumber" class="form-control" />
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label fw-bold">Correo</label>
+                    <input asp-for="Email" class="form-control" />
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="CelNumber" class="form-label fw-bold">Fecha y hora de salida</label>
+                    <input asp-for="CelNumber" class="form-control" />
+                </div>
+                
+                <div class="mt-4">
+                    <button type="submit" asp-action="Edit" class="btn btn-success me-2">Guardar cambios</button>
+                    <a href="@Url.Action("Index", "User")" class="btn btn-secondary">Volver</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

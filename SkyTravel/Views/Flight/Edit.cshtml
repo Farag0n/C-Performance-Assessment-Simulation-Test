@@ -1,0 +1,49 @@
+@model SkyTravel.Models.Flight
+
+<div class="card p-4 shadow-lg" style="max-width: 800px; margin: 2rem auto;">
+    <div class="d-flex flex-wrap align-items-start">
+        <div style="flex: 1;">
+            <h3 class="mb-3">Editar Vuelo</h3>
+
+            <form asp-action="Edit" asp-controller="Flight" method="post">
+
+                <div class="mb-3">
+                    <label asp-for="Origin" class="form-label fw-bold">Origen</label>
+                    <input asp-for="Origin" class="form-control" />
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="Destination" class="form-label fw-bold">Destino</label>
+                    <input asp-for="Destination" class="form-control" />
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="Departure" class="form-label fw-bold">Fecha y hora de salida</label>
+                    <input asp-for="Departure" class="form-control" />
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="Arrival" class="form-label fw-bold">Fecha y hora de llegada</label>
+                    <input asp-for="Arrival" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Capacity" class="form-label fw-bold">Puestos</label>
+                    <input asp-for="Capacity" class="form-control" type="number" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="State" class="form-label fw-bold">Estado del vuelo</label>
+                    <select asp-for="State" asp-items="Html.GetEnumSelectList<SkyTravel.Models.Flight.FlightStates>()" class="form-select">
+                        <option value="">Selecciona el estado del vuelo</option>
+                    </select>
+                </div>
+                
+                <div class="mt-4">
+                    <button type="submit" asp-action="Edit" class="btn btn-success me-2">Guardar cambios</button>
+                    <a href="@Url.Action("Index", "Flight")" class="btn btn-secondary">Volver</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

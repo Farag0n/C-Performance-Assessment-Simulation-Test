@@ -1,0 +1,44 @@
+@model IEnumerable<SkyTravel.Models.ReservFlight>
+
+<h1>Reserva de vuelos</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Reservar nuevo vuelo</a>
+    <a asp-controller="Principal" asp-action="Index" class="btn btn-secondary">Volver al menú principal</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Usuario</th>
+        <th>Vuelo</th>
+        <th>Fecha de salida</th>
+        <th>Fecha de reserva</th>
+        <th>Pago</th>
+        <th>Acciones</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var reserva in Model)
+    {
+        <tr>
+            <td>@reserva.User.Name</td>
+            <td>@reserva.Flight.FlightCode</td>
+            <td>@reserva.Flight.Departure.ToShortDateString()</td>
+            <td>@reserva.ReservationDate.ToShortDateString()</td>
+            <td>@reserva.Pay</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@reserva.Id" class="btn btn-warning btn-sm">Editar</a>
+
+                <form asp-action="Delete" asp-route-id="@reserva.Id" method="post" style="display:inline;">
+                    <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                </form>
+
+                <form asp-action="GenerateTicket" asp-route-id="@reserva.Id" method="post" style="display:inline;">
+                    <button type="submit" class="btn btn-info btn-sm">Ticket PDF</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

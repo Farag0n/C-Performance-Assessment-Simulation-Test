@@ -1,0 +1,36 @@
+@model SkyTravel.Models.User
+<h1>Registrar usuario</h1>
+
+<form asp-action="Create" asp-controller="Flight" method="post">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label fw-bold">Nombre completo</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="DocNumber" class="form-label fw-bold">Numero de documento</label>
+        <input asp-for="DocNumber" class="form-control" />
+    </div>
+                
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label fw-bold">Correo</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+                
+    <div class="mb-3">
+        <label asp-for="CelNumber" class="form-label fw-bold">Numero de celular</label>
+        <input asp-for="CelNumber" class="form-control" />
+    </div>
+    
+    <div>
+        <button type="submit" asp-action="Create" class="btn btn-success me-2">Guardar</button>
+        <a href="@Url.Action("Index", "User")" class="btn btn-secondary">Volver</a>
+    </div>
+</form>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <script>
+        alert("@ViewBag.ErrorMessage");
+    </script>
+}

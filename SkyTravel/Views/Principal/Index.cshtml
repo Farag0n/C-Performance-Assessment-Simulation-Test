@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "Panel de control";
+}
+
+<h2 class="mb-4">Panel de control</h2>
+
+<div class="d-grid gap-3 col-6 mx-auto">
+    <a asp-controller="Flight" asp-action="Index" class="btn btn-primary">Ver vuelos</a>
+    <a asp-controller="User" asp-action="Index" class="btn btn-secondary">Ver usuarios</a>
+    <a asp-controller="ReservFlight" asp-action="Index" class="btn btn-success">Ver reservas</a>
+</div>

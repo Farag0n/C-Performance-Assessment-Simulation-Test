@@ -1,31 +1,149 @@
-# C-Sharp Test MVC
-## Descripcion: 
-simulacro de preparacion para la pruba de modulo de C# con mvc 
+# ✈️ C# Test MVC — Sistema de Gestión de Vuelos
 
-## como ejecutar el proyecto y requisitos:
-(aca agregar que en la variable de entorno
+## 🧩 Descripción
 
-## Estructura del proyecto:
+Proyecto de simulacro desarrollado en **C# con ASP.NET MVC**, creado como preparación para la **prueba de desempeño del módulo de C#**.
+El sistema implementa una estructura MVC funcional para la **gestión de vuelos, usuarios y reservas**, aplicando principios de **POO, LINQ, Entity Framework Core** y conexión a base de datos mediante **DefaultConnection**.
+
+---
+
+## ⚙️ Requisitos Previos
+
+| Herramienta       | Versión Recomendada                                  |
+| ----------------- | ---------------------------------------------------- |
+| **.NET SDK**      | 8.0 o superior                                       |
+| **IDE**           | Visual Studio / Visual Studio Code / JetBrains Rider |
+| **Base de Datos** | MySQL o PostgreSQL                                   |
+| **ORM**           | Entity Framework Core                                |
+| **Navegador**     | Chrome, Edge o Firefox (última versión)              |
+
+> 🧠 **Nota:** Antes de ejecutar el proyecto, asegúrese de tener configurada correctamente la cadena de conexión en la variable **`DefaultConnection`** dentro del archivo `appsettings.json`, con los datos de su base de datos.
+
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "server=localhost;database=skytravel_db;user=root;password=tu_contraseña;"
+}
+```
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. **Clonar el repositorio**
+
+   ```bash
+   git clone https://github.com/tuusuario/CSharp-Test-MVC.git
+   cd CSharp-Test-MVC
+   ```
+
+2. **Restaurar dependencias**
+
+   ```bash
+   dotnet restore
+   ```
+
+3. **Aplicar las migraciones a la base de datos**
+
+   ```bash
+   dotnet ef database update
+   ```
+
+4. **Ejecutar el proyecto**
+
+   ```bash
+   dotnet run
+   ```
+
+5. **Abrir en el navegador**
+
+   ```
+   https://localhost:5001
+   ```
+
+---
+
+## 🧱 Estructura del Proyecto
+
+```
 ├── Controllers
 │   ├── FlightController.cs
 │   ├── UserController.cs
-|   ├── PrincipalController.cs
-|   ├── HomeController.cs
+│   ├── PrincipalController.cs
+│   ├── HomeController.cs
 │   └── ReservFlightController.cs
+│
 ├── Infraestructure
 │   └── AppDbContext.cs
+│
 ├── Models
 │   ├── Flight.cs
 │   ├── ReservFlight.cs
 │   └── User.cs
+│
 ├── Views
 │   ├── Flight
 │   ├── Passenger
 │   └── Reservation
+│
 ├── wwwroot
 │   └── css / js / img
+│
 └── Program.cs
+```
 
-## Diagrama de clases y casos de uso:
+---
+
+## 📊 Diagramas
+
+### 🧩 Diagrama de Clases
+
+*(Inserte aquí el enlace o imagen del diagrama de clases)*
+
+> Ejemplo:
+> ![Diagrama de Clases](./Diagrams/Diagrama_Clases.png)
+
+### 🧩 Diagrama de Casos de Uso
+
+*(Inserte aquí el enlace o imagen del diagrama de casos de uso)*
+
+> Ejemplo:
+> ![Diagrama de Casos de Uso](./Diagrams/Diagrama_CasosDeUso.png)
+
+---
+
+## 🧠 Funcionalidades Clave
+
+* **Gestión de Vuelos:** Registrar, editar, eliminar y listar vuelos.
+* **Gestión de Usuarios:** Registro y administración de pasajeros.
+* **Gestión de Reservas:** Crear, cancelar o finalizar reservas con validaciones de disponibilidad.
+* **Validaciones de negocio:**
+
+  * Códigos de vuelo y documentos únicos.
+  * Reservas dentro del rango de 30 días.
+  * Control de asientos disponibles.
+
+---
+
+## 🧮 Tecnologías Utilizadas
+
+* **C# / ASP.NET MVC**
+* **Entity Framework Core**
+* **LINQ**
+* **MySQL / PostgreSQL**
+* **Bootstrap / Razor Views**
+
+---
+
+## 👤 Autor
+
+**Nombre:** Faragon
+**Proyecto:** Simulacro de prueba de desempeño — C# MVC
+**Correo:** [faragon@example.com](mailto:faragon@example.com)
+**Fecha:** Octubre 2025
+
+---
+
+> ☕ “El buen código es como un buen espresso: concentrado, potente y mejor si se sirve caliente.”
+> — *J.A.R.V.I.S., asistente personal de Faragon*
 
 

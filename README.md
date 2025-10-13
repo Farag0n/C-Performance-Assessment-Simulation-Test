@@ -32,32 +32,41 @@ El sistema implementa una estructura MVC funcional para la **gestión de vuelos,
 1. **Clonar el repositorio**
 
    ```bash
-   git clone https://github.com/tuusuario/CSharp-Test-MVC.git
-   cd CSharp-Test-MVC
+   git clone "link del repo"
+   #Despues de clonarlo no olvides abrir el proyecto en tu entorno de desarrollo y habre la terminal
    ```
 
-2. **Restaurar dependencias**
+2. **Instala dependencias**
+
+   ```bash
+   #Esto se puede hacer desde entorno visual
+   # Instalar Entity Framework Core
+    dotnet add package Microsoft.EntityFrameworkCore --version 9.0.0
+    
+    # Instalar las herramientas de diseño (para migrations)
+    dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.0
+    
+    # Instalar el proveedor MySQL con Pomelo
+    dotnet add package Pomelo.EntityFrameworkCore.MySql --version 9.0.0
+   ```
+
+3. **Restaurar dependencias**
 
    ```bash
    dotnet restore
    ```
 
-3. **Aplicar las migraciones a la base de datos**
+4. **Aplicar las migraciones a la base de datos**
 
    ```bash
+   dotnet ef migrations add InitialCreate
    dotnet ef database update
    ```
 
-4. **Ejecutar el proyecto**
+5. **Ejecutar el proyecto**
 
    ```bash
-   dotnet run
-   ```
-
-5. **Abrir en el navegador**
-
-   ```
-   https://localhost:5001
+   dotnet watch run
    ```
 
 ---
@@ -136,7 +145,7 @@ El sistema implementa una estructura MVC funcional para la **gestión de vuelos,
 
 ## 👤 Autor
 
-**Nombre:** Faragon
+**Nombre:** Miguel Angel Angarita
 **Proyecto:** Simulacro de prueba de desempeño — C# MVC
 **Correo:** [faragon@example.com](mailto:faragon@example.com)
 **Fecha:** Octubre 2025

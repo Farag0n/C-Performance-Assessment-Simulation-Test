@@ -17,79 +17,81 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SkyTravel
 build_property.RootNamespace = SkyTravel
-build_property.ProjectDir = /home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/
+build_property.ProjectDir = C:\Users\migue\Desktop\repos\C-Performance-Assessment-Simulation-Test\SkyTravel\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel
+build_property.MSBuildProjectDirectory = C:\Users\migue\Desktop\repos\C-Performance-Assessment-Simulation-Test\SkyTravel
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Flight/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0L0NyZWF0ZS5jc2h0bWw=
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Flight/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Flight/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0L0VkaXQuY3NodG1s
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Flight/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Flight/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmxpZ2h0L0luZGV4LmNzaHRtbA==
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Flight/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Principal/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJpbmNpcGFsL0luZGV4LmNzaHRtbA==
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Principal/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGFsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/ReservFlight/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2RmxpZ2h0L0NyZWF0ZS5jc2h0bWw=
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/ReservFlight/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2RmxpZ2h0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/ReservFlight/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2RmxpZ2h0L0VkaXQuY3NodG1s
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/ReservFlight/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2RmxpZ2h0XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/ReservFlight/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2RmxpZ2h0L0luZGV4LmNzaHRtbA==
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/ReservFlight/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2RmxpZ2h0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/User/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9DcmVhdGUuY3NodG1s
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/User/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9FZGl0LmNzaHRtbA==
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/User/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/faragon/Desktop/Repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-ziodi4zepn
+[C:/Users/migue/Desktop/repos/C-Performance-Assessment-Simulation-Test/SkyTravel/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-v5oamepihm
